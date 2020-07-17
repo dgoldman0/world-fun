@@ -1,0 +1,1 @@
+<!--World Builder Status Page: includes total amount of WRLD frozen, amount available withdraw, information about forging, etc	-->
