@@ -43,6 +43,8 @@
     <div id = "main">
       <div class = "rounded border" style = "padding: 5px">
         You've reached the World Builder mini-game site. You can spend time here earning $WRLD to use in our other projects, including the token forge. If you have any questions, you can join the <a href = "https://t.me/tworldbuilder">Telegram</a> or <a href = "https://discord.gg/k8vdBz4">Discord</a> chats to learn more about the project.
+        <hr/>
+        You can start out by collecting $WRLD using our faucet. The faucet is completely free, if you have enough frozen TRX to pay the energy fee for the contract. If you want larger payouts, you can register for the Waterfall. Finally, the burner games let you compete against other holders and win TRX.  
       </div>
       <center><h1>Mini Games</h1></center>
       <div class = "row" style = "background-color: LightBlue;">
