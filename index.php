@@ -41,7 +41,7 @@
   <body>
     <?php require_once('inc/menu_bar.php'); ?>
     <div id = "main">
-      <div class = "rounded border">
+      <div class = "rounded border" style = "padding: 5px">
         You've reached the World Builder mini-game site. You can spend time here earning $WRLD to use in our other projects, including the token forge. If you have any questions, you can join the <a href = "https://t.me/tworldbuilder">Telegram</a> or <a href = "https://discord.gg/k8vdBz4">Discord</a> chats to learn more about the project.
       </div>
       <center><h1>Mini Games</h1></center>
