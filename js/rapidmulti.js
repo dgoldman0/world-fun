@@ -108,7 +108,7 @@ $(document).ready(function() {
 			if (Number(res) != NaN)
 				$('#prize-pool').text(res / 1000000);
 		});
-		contractGlobal.currentWinner().call().then(function (res) {
+		contractGlobal.currentWinner1().call().then(function (res) {
 			if (res == "")
 				$("#current-winner").text("T*********************************");
 			else {
