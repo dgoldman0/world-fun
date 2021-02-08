@@ -17,7 +17,7 @@ if (params['ref'] != undefined) {
 $(document).ready(function() {
 	$("#register").click(function() {
 	  if (checkConnection()) {
-	    var contract = window.tronWeb.contract(abi_burner, contractAddress);
+	    var contract = window.tronWeb.contract(abi_multi, contractAddress);
 	    contract.buyIn().call().then(function (res) {
 		    contract.register(referrer).send({shouldPollResponse: false, callValue: (res * 1000000).toFixed(0)});
 	    });
@@ -25,7 +25,7 @@ $(document).ready(function() {
 	});
 	$("#burn").click(function() {
 		if (checkConnection()) {
-		    var contract = window.tronWeb.contract(abi_burner, contractAddress);
+		    var contract = window.tronWeb.contract(abi_multi, contractAddress);
 		    var amt = Number($("#burn-amount").val());
 		    if (amt > 0) {
 		    	amt = (amt * 1000000).toFixed(0);
@@ -62,7 +62,7 @@ $(document).ready(function() {
     	privateKey: burnerKey
 	});
 
-	var contractGlobal = tronWebGlobal.contract(abi_burner, contractAddress);
+	var contractGlobal = tronWebGlobal.contract(abi_multi, contractAddress);
 	// Set timer for continuous operation
 
 	// I should make the timer halt and wait until all checks are done, but we'll see.
@@ -127,7 +127,7 @@ $(document).ready(function() {
 					if (ref != "T9yD14Nj9j7xAB4dbGeiX9h8unkKHxuWwb") referrer = ref;
 				});
 			}
-			var contract = window.tronWeb.contract(abi_burner, contractAddress);
+			var contract = window.tronWeb.contract(abi_multi, contractAddress);
 			contract.checkRegistered().call().then(function (res) {
 				if (res) {
 					$("#register").hide();
