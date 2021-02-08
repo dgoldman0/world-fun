@@ -61,7 +61,7 @@
         <div class="float-right"><span id="second-burn"></span> WRLD</div>
         <div class="clearfix"></div>
 				<div class="float-left">Third:</div>
-        <div class="float-right"><span id="second-burn"></span> WRLD</div>
+        <div class="float-right"><span id="third-burn"></span> WRLD</div>
         <div class="clearfix"></div>
 		<hr/>
         <div class="float-left">You Referred:</div>
