@@ -95,7 +95,12 @@
 	      <hr/>
 	      	To register: Click the register button. You will <b>pay the game</b> the current buy-in. 5% will go to the devs. 5% will go to your referrer, or to the current highest burner, if the referral address is empty.
 	      	<br/><br/>
-	      	To play: Burn WLRD. You lose that WRLD, and it is temporarily locked out of circulation. After the timer runs out, the game will end when the next person burns WRLD. The person who has burned the most WRLD wins the pot (50% of the contract's TRX balance)!
+	      	To play: Burn WLRD. You lose that WRLD, and it is temporarily locked out of circulation. After the timer runs out, the game will end when the next person burns WRLD.
+					<br/><br/>
+					<b>Prize Payouts</b><br/>
+					First Place: 1/2 of prize pool<br/>
+					Second Place: 1/3 of the prize pool</br>
+					Third Place: 1/6 of the prize pool
 	      	<br/><br/>
 	      	After the end of a round, a new round will start. You will have to register again, and the buy-in will increase with each new round.
       </div>

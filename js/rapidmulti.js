@@ -1,4 +1,4 @@
-var contractAddress = 'TK1KvfCJrHaiQMxub3stNyKeZqK55RCk2q';
+var contractAddress = '';
 const TID = 1002567;
 var referrer = 'TTYTYPVEzjBKBgizGRwYjQ988e2sc8WPha'; // Default to mine, because why not?
 var hasRef = false;
